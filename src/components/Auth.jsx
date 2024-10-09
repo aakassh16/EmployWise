@@ -9,14 +9,18 @@ const Auth = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    axios.post('https://reqres.in/api/login', { email, password })
-      .then((response) => {
-        localStorage.setItem('token', response.data.token);
-        navigate('/users');
-      })
-      .catch(() => {
-        setError('Invalid credentials');
-      });
+    if (email === 'eve.holt@reqres.in' && password === 'cityslicka') {
+      axios.post('https://reqres.in/api/login', { email, password })
+        .then((response) => {
+          localStorage.setItem('token', response.data.token);
+          navigate('/users');
+        })
+        .catch(() => {
+          setError('Something went wrong. Please try again.');
+        });
+    } else {
+      setError('Invalid email or password. Please use correct credentials.');
+    }
   };
 
   return (
