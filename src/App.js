@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Auth />} />
+        <Route path="/EmployWise" element={<Auth />} />
         <Route path="/users" element={<PrivateRoute><UserList /></PrivateRoute>} />
         <Route path="/edit-user/:id" element={<PrivateRoute><EditUser /></PrivateRoute>} />
       </Routes>
