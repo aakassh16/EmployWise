@@ -60,18 +60,18 @@ const UserList = () => {
                     className="rounded-full w-10 h-10"
                   />
                 </td>
-                <td className="p-4 text-gray-800">{user.first_name}</td>
-                <td className="p-4 text-gray-800">{user.last_name}</td>
+                <td className="p-4 text-gray-800 font-bold">{user.first_name}</td>
+                <td className="p-4 text-gray-800 font-bold">{user.last_name}</td>
                 <td className="p-4 flex space-x-4">
                   <button
                     onClick={() => handleEdit(user.id)}
-                    className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg transition-all duration-300"
+                    className="bg-blue-500 hover:bg-blue-600 text-white py-1 px-3 rounded-lg transition-all duration-300"
                   >
                     Edit
                   </button>
                   <button
                     onClick={() => handleDelete(user.id)}
-                    className="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-lg transition-all duration-300"
+                    className="bg-red-500 hover:bg-red-600 text-white py-1 px-3 rounded-lg transition-all duration-300"
                   >
                     Delete
                   </button>
