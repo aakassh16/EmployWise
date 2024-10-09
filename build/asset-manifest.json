@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/EmployWise/static/css/main.eacb8c32.css",
-    "main.js": "/EmployWise/static/js/main.5edcf6cf.js",
+    "main.css": "/EmployWise/static/css/main.3a196ab8.css",
+    "main.js": "/EmployWise/static/js/main.0d1a15f8.js",
     "index.html": "/EmployWise/index.html",
-    "main.eacb8c32.css.map": "/EmployWise/static/css/main.eacb8c32.css.map",
-    "main.5edcf6cf.js.map": "/EmployWise/static/js/main.5edcf6cf.js.map"
+    "main.3a196ab8.css.map": "/EmployWise/static/css/main.3a196ab8.css.map",
+    "main.0d1a15f8.js.map": "/EmployWise/static/js/main.0d1a15f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.eacb8c32.css",
-    "static/js/main.5edcf6cf.js"
+    "static/css/main.3a196ab8.css",
+    "static/js/main.0d1a15f8.js"
   ]
 }
