@@ -20,7 +20,7 @@ This project is a React application that integrates with the Reqres API to perfo
 - **Tailwind CSS**: Basic styling for layout and design.
 
 
-### Clone the repository
+## Clone the repository
 
 ```bash
 git clone https://github.com/aakassh16/employwise-assignment.git
