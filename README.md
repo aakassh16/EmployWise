@@ -19,12 +19,9 @@ This project is a React application that integrates with the Reqres API to perfo
 - **Reqres API**: Mock API for user data and authentication.
 - **Tailwind CSS**: Basic styling for layout and design.
 
-## Installation
-
-Follow the steps below to set up and run the project locally.
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/employwise-assignment.git
+git clone https://github.com/aakassh16/employwise-assignment.git
 cd employwise-assignment
