@@ -42,7 +42,7 @@ const UserList = () => {
       <h2 className="text-3xl font-semibold text-gray-800 mt-10 mb-6">User List</h2>
       <div className="overflow-x-auto w-full max-w-4xl shadow-lg bg-white rounded-lg">
         <table className="min-w-full text-left border-collapse">
-          <thead className="bg-gray-200">
+          <thead className="bg-gray-200 border-solid border-black">
             <tr>
               <th className="p-4 text-sm font-medium text-gray-600">Avatar</th>
               <th className="p-4 text-sm font-medium text-gray-600">First Name</th>
