@@ -37,10 +37,39 @@ You have to install the following:
 git clone https://github.com/aakassh16/employwise-assignment.git
 cd employwise-assignment
 
-
+```
 
 
 ## Install dependencies
 
 ```bash
 npm install
+
+```
+## Start the Application
+
+```bash
+npm start
+
+```
+
+## Folder Structure
+
+```bash
+.
+├── public
+│   └── index.html
+├── src
+│   ├── components
+│   │   └── ProtectedRoute.js
+│   ├── pages
+│   │   ├── Auth.js
+│   │   ├── UserList.js
+│   │   └── EditUser.js
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── README.md
+└── package.json
+
+```
