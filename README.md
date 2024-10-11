@@ -2,6 +2,11 @@
 
 This project is a React application that integrates with the Reqres API to perform basic user management functions. It includes login, user list with pagination, and the ability to edit and delete users.
 
+## Live Demo
+Here you can view the live demo of this application here:
+
+[Deployed Application Link](https://aakassh16.github.io/EmployWise/)
+
 ## Features
 
 1. **Authentication**: Users can log in with their credentials. Token is stored in `localStorage` for session management.
