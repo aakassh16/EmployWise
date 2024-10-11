@@ -36,3 +36,11 @@ You have to install the following:
 ```bash
 git clone https://github.com/aakassh16/employwise-assignment.git
 cd employwise-assignment
+
+
+
+
+## Install dependencies
+
+```bash
+npm install
