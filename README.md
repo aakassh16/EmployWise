@@ -30,6 +30,29 @@ You have to install the following:
 - **Reqres API**: Mock API for user data and authentication.
 - **Tailwind CSS**: Basic styling for layout and design.
 
+## Folder Structure
+
+```bash
+.
+├── public
+│   └── index.html 
+├── src
+│   ├── components
+│   │   ├── Auth.js
+│   │   ├── UserList.js
+│   │   └── EditUser.js
+│   │
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+│
+├── README.md
+├── .postcssrc
+├── tailwind.config.js
+├── package-lock.json
+└── package.json
+
+```
 
 ## Clone the repository
 
@@ -53,23 +76,3 @@ npm start
 
 ```
 
-## Folder Structure
-
-```bash
-.
-├── public
-│   └── index.html
-├── src
-│   ├── components
-│   │   └── ProtectedRoute.js
-│   ├── pages
-│   │   ├── Auth.js
-│   │   ├── UserList.js
-│   │   └── EditUser.js
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-├── README.md
-└── package.json
-
-```
