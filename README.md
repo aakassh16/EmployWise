@@ -16,6 +16,12 @@ Here you can view the live demo of this application here:
 5. **Pagination**: Navigate through multiple pages of users.
 6. **Routing**: Uses `react-router-dom` for routing between Login, User List, and Edit User pages.
 
+## Prerequisites
+
+You have to install the following:
+- [Node.js](https://nodejs.org/en/) (v12+)
+- [npm](https://www.npmjs.com/) (comes with Node.js) or [yarn](https://yarnpkg.com/)
+
 ## Technologies Used
 
 - **React**: Frontend library for building the user interface.
@@ -24,6 +30,25 @@ Here you can view the live demo of this application here:
 - **Reqres API**: Mock API for user data and authentication.
 - **Tailwind CSS**: Basic styling for layout and design.
 
+## Folder Structure
+.
+├── public
+│   └── index.html
+├── src
+│   ├── components
+│   │   ├── Auth.js
+│   │   ├── UserList.js
+│   │   └── EditUser.js
+│   │
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+│
+├── README.md
+├── .postcssrc
+├── tailwind.config.js
+├── package-lock.json
+└── package.json
 
 ## Clone the repository
 
